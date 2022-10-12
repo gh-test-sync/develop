@@ -10,5 +10,5 @@ jobs:
         with:
           source_repo: "https://johnjaider1000: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@github.com/gh-test-sync/develop.git" #URL primer repositorio https://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@github.com/gh-test-sync/develop.git
           source_branch: "main"
-          destination_repo: https://johnjaider1000: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@github.com/gh-test-sync/staging.git #Repositorio destino.
+          destination_repo: https://johnjaider1000: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@github.com/gh-test-sync/staging.git #Repositorio destino.
           destination_branch: "main"
