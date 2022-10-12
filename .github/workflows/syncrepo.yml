@@ -17,6 +17,6 @@ jobs:
     - uses: repo-sync/pull-request@v2
       name: Create pull request
       with:
-        source_branch: ${{ secrets.INTERMEDIATE_BRANCH }}
+        source_branch: ${{ secrets.INTERMEDIATE_BRANCH }} #URL segundo repo.
         destination_branch: main
         github_token: ${{ secrets.GT_STG_TOKEN }}
