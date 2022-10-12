@@ -1,9 +1,6 @@
 name: Repo Sync
 
-on:
-  schedule: 
-  - cron: "*/3 * * * *" # every 15 minutes. set to whatever interval you like
-
+on: [push]
 jobs:
   repo-sync:
     name: Repo Sync
