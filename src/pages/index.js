@@ -1,5 +1,5 @@
 export default function Home() {
-  const x = 1;
+  const hola = hola;
   return (
     <>
       <h1>Hello Next.js HEY</h1>
