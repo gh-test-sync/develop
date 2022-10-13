@@ -1,0 +1,16 @@
+
+name: "git repo sync"
+on:
+  push:
+jobs:
+  repo-sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: repo-sync
+      uses: gh-test-sync/develop@master
+      with:
+        source_repo_url: git@github.com:gh-test-sync/develop.git
+        source_branch: master
+        dest_repo_url: git@github.com:gh-test-sync/staging.git
+        dest_branch: master
+        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
